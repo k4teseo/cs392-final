@@ -1,32 +1,41 @@
 import styled from "styled-components";
-
-const StyledDiv = styled.div`
-  display: flex;
-`
+import Rate from "./Rate.jsx";
 
 const Container = styled.div`
   background-color: white;
-  box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
-  width: 18vw;
+  width: 19vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 2%;
+  border: solid black 2px;
+  &:hover {
+    box-shadow: 0 0 20px 5px rgba(0,0,0,.2)
+  }
 `;
 
 const StyledImg = styled.img`
-    width: 200px;
+  width: 200px;
+`;
+
+const StyledH1 = styled.h1`
+  text-align: center;
+  font-family: "Bodoni 72 Smallcaps", serif;
+
+`;
+
+const StyledH2 = styled.h2`
+  font-family: "Bodoni 72 Smallcaps", serif;
 `;
 
 function Book(book) {
     return(
-        <StyledDiv>
         <Container>
-            <h1>{book.title}</h1>
+            <StyledH1>{book.title}</StyledH1>
             <StyledImg src={book.cover}/>
-            <h2>{book.author}</h2>
+            <StyledH2>{book.author}</StyledH2>
+            <Rate />
         </Container>
-        </StyledDiv>
     )
 }
 

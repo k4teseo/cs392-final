@@ -1,10 +1,9 @@
 import List from "./components/List.jsx"
+
 function App() {
-  return (
-    <>
-      <List/>
-    </>
-  )
+    return (
+        <List/>
+    );
 }
 
-export default App
+export default App;
