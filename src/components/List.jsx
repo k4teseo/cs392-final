@@ -7,7 +7,7 @@ export default function List() {
     useEffect(() => {
         async function fetcher() {
                 const rawData = await fetch("https://my-json-server.typicode.com/k4teseo/cs392-final/books");
-                const {books} = await rawData.json();
+                const books = await rawData.json();
                 console.log("fetched data", {books});
                 setData(books);
         }
