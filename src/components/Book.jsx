@@ -18,6 +18,11 @@ const StyledImg = styled.img`
   width: 200px;
 `;
 
+const StyledRate = styled(Rate)`
+display: flex;
+flex-direction: row;
+`
+
 const StyledH1 = styled.h1`
   text-align: center;
   font-family: "Bodoni 72 Smallcaps", serif;
@@ -30,12 +35,17 @@ const StyledH2 = styled.h2`
 
 function Book(book) {
     return(
+        <>
         <Container>
             <StyledH1>{book.title}</StyledH1>
             <StyledImg src={book.cover}/>
             <StyledH2>{book.author}</StyledH2>
-            <Rate />
+            <Rate/>
         </Container>
+
+
+
+        </>
     )
 }
 
