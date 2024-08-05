@@ -17,12 +17,14 @@
     {
       "id": 3,
       "title": "Fahrenheit 451",
+      "author": "Ray Bradbury",
       "description": "Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known.",
       "cover": "https://m.media-amazon.com/images/I/61z7RDG3OIL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       "id": 4,
       "title": "Beloved",
+      "author": "Toni Morrison",
       "description": "Sethe was born a slave and escaped to Ohio, but eighteen years later she is still not free. She has borne the unthinkable and not gone mad, yet she is still held captive by memories of Sweet Home, the beautiful farm where so many hideous things happened. Meanwhile Sethe’s house has long been troubled by the angry, destructive ghost of her baby, who died nameless and whose tombstone is engraved with a single word: Beloved.",
       "cover": "https://m.media-amazon.com/images/I/51Qj9kPD4CL._AC_UF1000,1000_QL80_.jpg"
     },
