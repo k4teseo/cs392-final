@@ -1,14 +1,8 @@
-import Overlay from "./components/Overlay.jsx"
-import Book from "./components/Book.jsx";
-import { useState } from "react";
+import List from "./components/List.jsx"
 function App() {
-    const [isOverlayOpen, setIsOverlayOpen] = useState(false);
   return (
     <>
-        <button onClick={() => setIsOverlayOpen(!isOverlayOpen)}><Book /></button>
-      <Overlay isOpen={isOverlayOpen} onClose={() => setIsOverlayOpen(!isOverlayOpen)}>
-
-      </Overlay>
+      <List/>
     </>
   )
 }
